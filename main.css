@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background-color: #272727;
+}
+
+.navbar{
+  display: grid;
+  background-color: #303030;
+  padding: 1rem 1rem;
+  color: #fff;
+}
+
+.navbar a{
+  color: #fff;
+  text-decoration: none;
+}
+
+#modal-completed{
+  margin-top: 7px;
+}

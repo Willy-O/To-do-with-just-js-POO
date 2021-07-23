@@ -1,0 +1,22 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "sinple to do list",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -l 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todolist",
+    "javascript",
+    "css",
+    "html5",
+    "bootstrap"
+  ],
+  "author": "willy-o",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^12.0.0"
+  }
+}
