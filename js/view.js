@@ -82,7 +82,7 @@ export default class View{
       <td class="text-light">${toDo.title}</td>
       <td class="text-light">${toDo.description}</td>
       <td class="text-center text-light"></td>
-      <td class="text-right text-light"></td>
+      <td class="text-right text-light d-flex flex-wrap justify-content-center""></td>
     </tr>
     `;
     

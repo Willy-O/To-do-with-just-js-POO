@@ -12,29 +12,29 @@
 </head>
 <body>
   <!-- Navbar -->
-
   
   <nav class="navbar d-flex">
-    <div class="container-fluid " id="navbarSupportedContent">
-      <a class="nav-link" href="#">
-        Home <span class="sr-only">(current)</span>
-      </a>
-      <form class="d-flex align-items-center" id="filters">
-        <label class="font-weight-bold text-info mx-3">Filters</label>
-        <label for="all" class="d-flex align-items-center">
-          <span>All</span>
-          <input type="radio" id="all" name="type" value="all" class="mx-1">
-        </label>
-        <label for="completed" class="d-flex align-items-center">
-          <span>Completed</span>
-          <input type="radio" id="completed" name="type" value="completed" class="mx-1">
-        </label>
-        <label for="uncompleted" class="d-flex align-items-center">
-          <span>Uncompleted</span>
-          <input type="radio" id="uncompleted" name="type" value="uncompleted" class="mx-1">
-        </label>
-        <input class="form-control me-2" type="search" name="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit" id="search">Search</button>
+    <div class="container-fluid " id="navbar">
+      <form class="d-flex align-items-center flex-wrap" id="filters">
+        <label class="font-weight-bold text-info me-3">Filters</label>
+        <div class="d-flex">
+          <label for="all" class="d-flex align-items-center ">
+            <span>All</span>
+            <input type="radio" id="all" name="type" value="all" class="mx-1">
+          </label>
+          <label for="completed" class="d-flex align-items-center ">
+            <span>Completed</span>
+            <input type="radio" id="completed" name="type" value="completed" class="mx-1">
+          </label>
+          <label for="uncompleted" class="d-flex align-items-center ">
+            <span>Uncompleted</span>
+            <input type="radio" id="uncompleted" name="type" value="uncompleted" class="mx-1">
+          </label>
+        </div>
+        <div class="d-flex">
+          <input class="form-control me-2" type="search" name="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit" id="search">Search</button>
+        </div>
       </form>
     </div>
   </nav>
