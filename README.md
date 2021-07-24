@@ -4,6 +4,7 @@ This is a To do list, a single page application built with HTML, CSS ans JavaScr
 
 You can create a to do list, mark them like completed, and filter by completed and words.
 
+## [Demo app](https://willy-o.github.io/todo-list-js/)
 ## To start
 
 Just clone the project and install de npm dependencies 
