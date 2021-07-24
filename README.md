@@ -2,6 +2,8 @@
 
 This is a To do list, a single page application built with HTML, CSS ans JavaScript.
 
+You can create a to do list, mark them like completed, and filter by completed and words.
+
 ## To start
 
 Just clone the project and install de npm dependencies 
