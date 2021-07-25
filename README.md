@@ -1,6 +1,6 @@
 # Todo js
 
-This is a To do list, a single page application built with HTML, CSS ans JavaScript.
+This is a To do list, a single page application built with HTML, CSS ans JavaScript using Object-oriented Programming (OOP).
 
 You can create a to do list, mark them like completed, and filter by completed and words.
 
